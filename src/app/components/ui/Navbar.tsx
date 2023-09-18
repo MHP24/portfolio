@@ -19,7 +19,7 @@ const options = [
     asset: 'contact'
   },
   {
-    path: 'share',
+    path: 'compartir',
     asset: 'share'
   }
 ];
@@ -32,7 +32,7 @@ export const Navbar = () => {
         <li>
           <Link 
             href={'/'}
-            className='w-full aspect-square p-3 bg-black grid items-center text-center'>
+            className='w-full aspect-square p-3 bg-black grid items-center text-center select-none'>
             <h2 className='text-5xl font-primary font-bold'>M</h2>
           </Link>
         </li>

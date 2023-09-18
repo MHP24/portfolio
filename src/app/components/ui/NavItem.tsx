@@ -16,7 +16,7 @@ export const NavItem: FC<Props> = ({ path, asset }) => {
   return (
     <div className='relative flex items-center'>
       <Link href={path}
-        className='grid place-items-center m-auto'
+        className='grid place-items-center m-auto select-none'
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
       >

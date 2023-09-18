@@ -5,7 +5,7 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
       <Navbar/>
-      <main className='h-screen ml-28 z-10 border-l-[1px] border-c3 px-4'>
+      <main className='h-screen ml-28 z-10 border-l-[1px] border-c3'>
         { children }
       </main>
     </>

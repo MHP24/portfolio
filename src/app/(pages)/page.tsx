@@ -1,6 +1,8 @@
 const Page = () => {
   return (
-    <p className=''>Page</p>
+    <section className='h-full w-full bg-hero bg-cover bg-no-repeat bg-fixed bg-center px-4'>
+       bg-hero
+    </section>
   );
 };
 

@@ -21,6 +21,9 @@ const config: Config = {
       fontFamily: {
         'primary': ['"League Spartan"'],
         'secondary': ['"Dancing Script"']
+      },
+      backgroundImage: {
+        'hero': 'url(/backgrounds/home.svg)'
       }
     },
   },
