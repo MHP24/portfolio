@@ -24,6 +24,9 @@ const config: Config = {
       },
       backgroundImage: {
         'hero': 'url(/backgrounds/home.svg)'
+      },
+      aspectRatio: {
+        '6/7': '6/7'
       }
     },
   },
