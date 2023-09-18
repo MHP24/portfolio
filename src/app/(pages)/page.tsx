@@ -1,6 +1,6 @@
 const Page = () => {
   return (
-    <p className='font-primary'>Page</p>
+    <p className=''>Page</p>
   );
 };
 
