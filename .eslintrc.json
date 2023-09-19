@@ -17,6 +17,7 @@
         "@typescript-eslint",
         "react"
     ],
+    "ignorePatterns": ["3d/"],
     "rules": {
         "jsx-quotes": ["error", "prefer-single"],
         "react/react-in-jsx-scope": "off",
