@@ -2,13 +2,13 @@
 
 import { useRef } from 'react';
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
-import { Canvas } from '@react-three/fiber';
+import { Canvas, useFrame } from '@react-three/fiber';
 
 export function Model() {
   const groupRef = useRef(null);
   //@ts-ignore
   const { nodes, materials } = useGLTF('/models/delorean.gltf');
-  
+
   return (
     <group ref={groupRef} dispose={null}>
       <group position={[0.174, 0.121, 0]} rotation={[-Math.PI / 2, 0, 0]}>
@@ -55,7 +55,7 @@ export const Delorean = () => {
       <Stage environment={'sunset'} intensity={1}>
         <Model/>
       </Stage>
-      <OrbitControls/>
+      <OrbitControls enableZoom={false}/>
     </Canvas>
   );
 };
