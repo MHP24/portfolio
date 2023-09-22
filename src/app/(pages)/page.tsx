@@ -2,7 +2,7 @@ import { Delorean } from '../components';
 
 const Page = () => {
   return (
-    <section className='h-full w-full bg-hero bg-cover bg-no-repeat bg-fixed bg-center px-4 flex relativ overflow-hidden'>
+    <section className='h-screen w-full bg-hero bg-cover bg-no-repeat bg-fixed bg-center px-4 flex relativ overflow-hidden'>
 
       <div className='h-full flex flex-col justify-center gap-40 px-6 z-10'>
         <h1 className='text-5xl md:text-7xl lg:text-8xl font-primary'>

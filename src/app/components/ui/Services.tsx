@@ -8,7 +8,7 @@ type Props = {
 
 export const Services: FC<Props> = ({ services }) => {
   return (
-    <ul>
+    <ul className='flex flex-col gap-7'>
       {
         services.map(service => (
           <ServiceCard key={`service-mh-${service.title}`} {...service}/>
