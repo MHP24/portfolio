@@ -26,7 +26,7 @@ const options = [
 
 export const Navbar = () => {
   return (
-    <nav className='fixed left-0 w-20 h-screen bg-c5'>
+    <nav className='hidden md:block fixed left-0 w-20 h-screen bg-c5'>
       <ul className='flex flex-col gap-8 h-full'>
 
         <li>

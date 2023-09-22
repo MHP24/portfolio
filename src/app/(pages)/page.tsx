@@ -6,7 +6,7 @@ const Page = () => {
 
       <div className='h-full flex flex-col justify-center gap-40 px-6 z-10'>
         <h1 className='text-5xl md:text-7xl lg:text-8xl font-primary'>
-          <span className='text-6xl sm:text-8xl lg:text-9xl font-bold'>M</span>iguel&nbsp; 
+          <span className='text-6xl sm:text-8xl lg:text-9xl font-bold'>M</span>iguel&nbsp; <br className='block sm:hidden'/>
           <span className='text-6xl sm:text-8xl lg:text-9xl font-bold'>H</span>enríquez <br/>
           <span className='text-6xl sm:text-8xl lg:text-9xl font-bold'>P</span>acheco
         </h1>
