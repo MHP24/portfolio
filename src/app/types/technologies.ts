@@ -5,5 +5,6 @@ export type Technology = {
 
 export type Technologies = {
   title: string,
+  percent: string,
   stack: Technology[]
 };

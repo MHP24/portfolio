@@ -3,6 +3,7 @@ import { Technologies } from '../types';
 export const technologies: Technologies[] = [
   {
     title: 'Frontend',
+    percent: '100',
     stack: [
       {
         name: 'HTML5',
@@ -36,6 +37,7 @@ export const technologies: Technologies[] = [
   },
   {
     title: 'Backend',
+    percent: '100',
     stack: [
       {
         name: 'Node.js',
@@ -69,6 +71,7 @@ export const technologies: Technologies[] = [
   },
   {
     title: 'Herramientas',
+    percent: '80',
     stack: [
       {
         name: 'Git',
@@ -86,6 +89,7 @@ export const technologies: Technologies[] = [
   },
   {
     title: 'Diseño',
+    percent: '65',
     stack: [
       {
         name: 'Figma',
