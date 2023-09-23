@@ -1,4 +1,4 @@
-import { TitleCategory } from '@/app/components';
+import { SkillCard, TitleCategory } from '@/app/components';
 
 const Page = () => {
   return (
@@ -10,8 +10,8 @@ const Page = () => {
         <TitleCategory title='Tecnologías'/>
       </div>
 
-      <div className='border-2 h-full w-full grid grid-cols-4 flex-1'>
-
+      <div className='h-full w-full grid grid-cols-4 flex-1'>
+        <SkillCard/>
 
       </div>
 
