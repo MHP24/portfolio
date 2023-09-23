@@ -7,7 +7,7 @@ const options = [
     asset: 'services'
   }, 
   {
-    path: 'tecnologías',
+    path: 'tecnologias',
     asset: 'technologies'
   }, 
   {

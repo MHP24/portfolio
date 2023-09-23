@@ -1,3 +1,4 @@
+import { TitleCategory } from '@/app/components';
 import { Services } from '@/app/components/ui/Services';
 import { services } from '@/app/mocks';
 
@@ -8,13 +9,10 @@ const Page = () => {
       px-4 overflow-hidden relative'
     >
       <div className='h-full px-6 z-10'>
-        <h1 className='text-6xl sm:text-8xl md:text-9xl font-secondary font my-10'><span className='font-bold'>S</span>ervicios</h1>
-
         <div className='h-full'>
+          <TitleCategory title='servicios'/>
           <Services services={services}/>
         </div>
-
-
       </div>
 
       <div className='w-full h-full z-0'>

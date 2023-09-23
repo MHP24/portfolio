@@ -15,7 +15,7 @@ export const ServiceCard: FC<TService> = ({ title, description, startsVisible })
         className='select-none flex justify-between items-center'
       >
         <div className='h-10'>
-          <h3 className='text-2xl sm:text-3xl font-primary'><span className='font-bold'>{title.at(0)}</span>{title.slice(1, title.length)}</h3>
+          <h3 className='text-xl sm:text-3xl font-primary'><span className='font-bold'>{title.at(0)}</span>{title.slice(1, title.length)}</h3>
         </div>
 
         <button 

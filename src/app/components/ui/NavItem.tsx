@@ -28,10 +28,10 @@ export const NavItem: FC<Props> = ({ path, asset }) => {
 
       {
         isHover && (
-          <p 
+          <label 
             className='absolute translate-x-16 capitalize text-sm bg-c6 px-2 py-1 rounded-md border-[1px] border-c3-1 font-primary'>
             {path}
-          </p>
+          </label>
         )
       }
     </div>

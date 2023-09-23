@@ -4,7 +4,7 @@ import { useRef } from 'react';
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
 import { Canvas, useFrame } from '@react-three/fiber';
 
-export function Model() {
+function Model() {
   const groupRef = useRef(null);
   //@ts-ignore
   const { nodes, materials } = useGLTF('/models/delorean.gltf');
