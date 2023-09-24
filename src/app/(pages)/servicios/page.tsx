@@ -1,6 +1,12 @@
+import { Metadata } from 'next';
 import { TitleCategory } from '@/app/components';
 import { Services } from '@/app/components/ui/Services';
 import { services } from '@/app/mocks';
+
+export const metadata: Metadata = {
+  title: 'Miguel HP | Servicios',
+  description: 'Servicios disponibles de Miguel Henríquez Pacheco (Desarollo, diseño y mantenimiento).'
+};
 
 const Page = () => {
   return (
