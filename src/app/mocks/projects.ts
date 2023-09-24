@@ -5,39 +5,39 @@ export const projects = [
       repository: 'https://github.com/MHP24/f-code',
       production: ''
     },
-    asset: ''
+    asset: 'fcode.jpg'
   },
   {
     title: 'WhatsApp Bot',
     links: {
       repository: 'https://github.com/MHP24/whatsapp-bot',
-      production: ''
+      production: 'https://wa.me/message/KZ7674WVE4CGP1'
     },
-    asset: ''
+    asset: 'whatsapp-bot.jpg'
   },
   {
     title: 'Discord Bot',
     links: {
       repository: 'https://github.com/MHP24/discord-bot',
-      production: ''
+      production: 'https://discord.com/oauth2/authorize?client_id=1121947695930691674&permissions=0&scope=bot%20applications.commands'
     },
-    asset: ''
+    asset: 'discord-bot.jpg'
   },
   {
     title: 'Abstract MH',
     links: {
       repository: 'https://github.com/MHP24/vsc-abstract-theme',
-      production: ''
+      production: 'https://marketplace.visualstudio.com/items?itemName=MiguelHP.Abstract-MH'
     },
-    asset: ''
+    asset: 'abstract-mh.jpg'
   },
   {
     title: 'MH Theme',
     links: {
       repository: 'https://github.com/MHP24/vsc-mh-theme',
-      production: ''
+      production: 'https://marketplace.visualstudio.com/items?itemName=PanaMiguel.mh-theme'
     },
-    asset: ''
+    asset: 'mh-theme.jpg'
   },
   {
     title: 'Attendance app',
@@ -45,7 +45,7 @@ export const projects = [
       repository: 'https://github.com/MHP24/Attendance-App',
       production: ''
     },
-    asset: ''
+    asset: 'attendance-app.jpg'
   },
   {
     title: 'Speech to text',
@@ -53,6 +53,6 @@ export const projects = [
       repository: 'https://github.com/MHP24/Speech-to-text',
       production: ''
     },
-    asset: ''
+    asset: 'speech-to-text.jpg'
   }
 ];
