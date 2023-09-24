@@ -6,3 +6,4 @@ export * from './Skills';
 export * from './SkillSet';
 export * from './ProjectPanel';
 export * from './Project';
+export * from './ProjectHover';

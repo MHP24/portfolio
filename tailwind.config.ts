@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         'c1': '#121212',
+        'c1-1': '#00000094',
         'c2': '#2B2828',
         'c3': '#FFFFFF',
         'c3-1': '#FFFFFF18',
