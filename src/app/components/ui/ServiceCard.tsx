@@ -5,7 +5,7 @@ import { TService } from '@/app/types';
 
 export const ServiceCard: FC<TService> = ({ title, description, startsVisible }) => {
 
-  const [isOpen, setIsOpen] = useState(startsVisible);
+  const [isOpen, setIsOpen] = useState<boolean>(startsVisible);
 
   return (
     <li className={`bg-c6 p-3 rounded-md border-2 border-c3-1 
