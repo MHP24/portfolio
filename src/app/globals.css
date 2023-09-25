@@ -6,19 +6,30 @@
 @tailwind utilities;
 
 
-@layer utilities {
-  @variants responsive {
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-
-    .no-scrollbar {
-        -ms-overflow-style: none;  
-        scrollbar-width: none;  
-    }
-  }
-}
-
 * {
   scrollbar-width: thin;
+}
+
+.fade_project {
+  --animate-duration: .4s;
+}
+
+.animate__fadeInUp {
+  --animate-duration: .6s;
+}
+
+.page__fadeIn {
+  --animate-duration: .8s;
+}
+
+.projectPanel__flipIn {
+  --animate-duration: .7s;
+}
+
+.services__fadeIn {
+  --animate-duration: .6s;
+}
+
+.projectsDecorator__fadeIn {
+  --animate-duration: .7s;
 }

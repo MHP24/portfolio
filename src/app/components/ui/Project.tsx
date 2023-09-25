@@ -19,6 +19,7 @@ export const Project: FC<PropsWithChildren<TProject>> = ({ children, asset, titl
             { children }
           </>
         )
+       
       }
       <div className='z-10'>
         <Image 

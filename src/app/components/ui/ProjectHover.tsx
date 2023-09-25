@@ -12,7 +12,7 @@ type Props = {
 export const ProjectHover: FC<Props> = ({ title, links: { repository, production = null } }) => {
   return (
     <div className='grid grid-rows-3 grid-cols-1 items-center justify-items-center
-      z-20 absolute w-full h-full rounded-lg bg-c1-1'>
+      z-20 absolute w-full h-full rounded-lg bg-c1-1 animate__animated animate__fadeIn fade_project'>
       <h4 className='text-xl xl:text-2xl font-primary'>{title}</h4>
 
       <Link 

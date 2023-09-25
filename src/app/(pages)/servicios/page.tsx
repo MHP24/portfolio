@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <section className='grid lg:grid-cols-2 items-center min-h-screen lg:h-screen w-full  
       bg-hero bg-cover bg-no-repeat bg-fixed bg-center 
-      px-4 overflow-hidden relative'
+      px-4 overflow-hidden relative animate__animated animate__fadeIn page__fadeIn'
     >
       <div className='h-full px-6 z-10'>
         <div className='h-full'>

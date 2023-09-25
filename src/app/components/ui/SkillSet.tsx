@@ -6,7 +6,7 @@ import { FC } from 'react';
 
 export const SkillSet: FC<Technologies> = ({ title, stack, percent }) => {
   return (
-    <div className={'border-2 border-c3-1 h-auto  flex flex-col rounded-lg'}>
+    <div className={'border-2 border-c3-1 h-auto  flex flex-col rounded-lg animate__animated animate__fadeInUp'}>
       
       <div className='bg-c7 p-3 rounded-tl-lg rounded-tr-lg'>
         <h3 className='text-center text-xl sm:text-3xl font-primary'><span className='font-bold '>{title.at(0)}</span>{title.slice(1, title.length)}</h3>
