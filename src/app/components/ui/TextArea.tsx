@@ -22,7 +22,7 @@ export const TextArea: FC<Props> = ({ name, label, placeholder }) => {
       <textarea
         name={name}
         placeholder={placeholder}
-        className='outline-none py-2 px-4 text-lg rounded-lg bg-c6 border-2 border-c3-1 font-primary'
+        className='w-full outline-none py-2 px-4 text-lg rounded-lg bg-c6 border-2 border-c3-1 font-primary'
       >
       </textarea>
     </div>
