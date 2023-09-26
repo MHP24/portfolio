@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { regex } from '@/app/utls';
+import { regex } from '@/app/utils';
 import { notify } from '@/app/lib';
 
 export async function POST(req: Request) {

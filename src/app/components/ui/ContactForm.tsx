@@ -2,7 +2,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Input, TextArea } from '.';
-import { regex } from '@/app/utls';
+import { regex } from '@/app/utils';
 
 type TFormValues = {
   email: string,
@@ -12,14 +12,24 @@ type TFormValues = {
 
 export const ContactForm = () => {
 
-  const { register, handleSubmit, formState: { errors } } = useForm<TFormValues>();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<TFormValues>();
 
-  const onSubmit = (data: TFormValues) => {
-    console.log({ data });
+  const onSubmit = async (data: TFormValues) => {
+    try {
+      await fetch(`${process.env.NEXT_PUBLIC_URL}/api/contact`, {
+        method: 'POST',
+        body: JSON.stringify(data)
+      });
+      
+      reset();
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   return (
-    <form className='flex flex-col items-start gap-8' onSubmit={handleSubmit(onSubmit)} noValidate>
+    <form className='flex flex-col items-start gap-8' 
+      onSubmit={handleSubmit(onSubmit)} noValidate>
 
       <Input 
         {...register('email', { required: true, pattern: regex.email })}
