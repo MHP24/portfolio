@@ -9,6 +9,7 @@
     "lint": "eslint --init"
   },
   "dependencies": {
+    "@emailjs/nodejs": "2.2.0",
     "@react-three/drei": "^9.84.0",
     "@react-three/fiber": "^8.14.2",
     "@types/node": "20.6.2",

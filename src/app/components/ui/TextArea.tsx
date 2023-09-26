@@ -15,7 +15,7 @@ export const TextArea: FC<Props> = forwardRef<HTMLTextAreaElement, Props>(
           label && (
             <label 
               htmlFor={name}
-              className={`font-primary text-lg ${isValid ? 'text-white' : 'text-red-700 font-bold'}`}
+              className={`font-primary text-lg ${isValid ? 'text-white' : 'text-red-600 font-bold'}`}
             >
               {label}
             </label>

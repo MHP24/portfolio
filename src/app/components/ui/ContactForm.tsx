@@ -2,6 +2,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Input, TextArea } from '.';
+import { regex } from '@/app/utls';
 
 type TFormValues = {
   email: string,
@@ -21,7 +22,7 @@ export const ContactForm = () => {
     <form className='flex flex-col items-start gap-8' onSubmit={handleSubmit(onSubmit)} noValidate>
 
       <Input 
-        {...register('email', { required: true, pattern: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/ })}
+        {...register('email', { required: true, pattern: regex.email })}
         name='email' 
         placeholder='tucorreo@mail.com' 
         type='email' 
