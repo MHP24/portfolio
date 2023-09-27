@@ -18,6 +18,10 @@
   --animate-duration: .6s;
 }
 
+.animate__fadeNav {
+  --animate-duration: .3s;
+}
+
 .page__fadeIn {
   --animate-duration: .3s;
 }
@@ -36,4 +40,15 @@
 
 .animate__flipInX {
   --animate-duration: 1s;
+}
+
+@media (min-width: 48rem) {
+  .animate__fadeInLeft,
+  .animate__fadeOutLeft {
+    --animate-duration: -1s;
+  }
+
+  .animate__fadeOutLeft {
+    animation: reverse;
+  }
 }

@@ -1,32 +1,49 @@
+'use client';
+
 import Link from 'next/link';
-import { NavItem } from '.';
+import { NavItem } from './NavItem';
+import { useContext } from 'react';
+import { NavContext } from '@/app/context';
 
 const options = [
   {
     path: 'servicios',
+    label: 'servicios',
     asset: 'services'
   }, 
   {
     path: 'tecnologias',
+    label: 'tecnologías',
     asset: 'technologies'
   }, 
   {
     path: 'proyectos',
+    label: 'proyectos',
     asset: 'projects'
   }, 
   {
     path: 'contacto',
+    label: 'contacto',
     asset: 'contact'
   },
   {
     path: 'compartir',
+    label: 'compartir',
     asset: 'share'
   }
 ];
 
 export const Navbar = () => {
+
+  const { isOpen } = useContext(NavContext);
+
   return (
-    <nav className='hidden md:block fixed left-0 w-20 h-screen bg-c5'>
+    <nav className={`animate__animated animate__fadeNav 
+      ${isOpen ? 'animate__fadeInLeft' : 'animate__fadeOutLeft'}
+      border-r-2 border-c3-1 md:border-none 
+      md:block fixed left-0 top-0 w-20 h-screen bg-c8 z-50`
+    }>
+
       <ul className='flex flex-col gap-8 h-full'>
 
         <li>

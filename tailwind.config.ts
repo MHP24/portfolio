@@ -18,6 +18,7 @@ const config: Config = {
         'c5': '#4B4B4B22',
         'c6': '#232323',
         'c7': '#1D1D1D',
+        'c8': '#1A1A1A'
       },
       fontFamily: {
         'primary': ['"League Spartan"'],
