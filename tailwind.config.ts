@@ -14,6 +14,7 @@ const config: Config = {
         'c2': '#2B2828',
         'c3': '#FFFFFF',
         'c3-1': '#FFFFFF18',
+        'c3-2': '#FFFFFF07',
         'c4': '#090909',
         'c5': '#4B4B4B22',
         'c6': '#232323',

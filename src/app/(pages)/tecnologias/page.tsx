@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { Skills, TitleCategory } from '@/app/components';
+import { ReactLogo, Skills, TitleCategory } from '@/app/components';
 import { technologies } from '@/app/mocks';
 
 export const metadata: Metadata = {
@@ -14,11 +14,12 @@ const Page = () => {
       bg-hero bg-cover bg-no-repeat bg-fixed bg-center 
       px-4 relative grid items-center animate__animated animate__fadeIn page__fadeIn'>
 
-      <div className='hidden md:grid items-center bg-c3-1 aspect-[21/9] w-6/12
-       fixed left-0 md:left-28 top-0 z-0 opacity-70 lg:opacity-100'>
+      <div className='hidden lg:grid items-center bg-c3-2 aspect-square w-40 xl:w-80
+       fixed right-5 top-5 z-0  rounded-2xl border-2 border-c3-1'>
+        <ReactLogo/>
       </div>
     
-      <div className='text-end px-6'>
+      <div className='text-start px-6'>
         <TitleCategory title='Tecnologías'/>
       </div>
 
