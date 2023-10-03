@@ -29,9 +29,8 @@ const Page = () => {
 
           </div>
 
-          <div className='hidden lg:grid items-center absolute w-[70%] h-full top-0 right-6 z-0 bg-c3-1
+          <div className='hidden lg:grid lg:items-center absolute w-[70%] h-full top-0 right-6 z-0 bg-c3-1
             animate__animated animate__fadeInUp decorator__fadeIn'>
-
           </div>
         </div>
 
