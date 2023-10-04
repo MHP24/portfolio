@@ -1,4 +1,4 @@
-import { TitleCategory, ProjectPanel } from '@/app/components';
+import { TitleCategory, ProjectPanel, Rocket } from '@/app/components';
 import { projects } from '@/app/mocks/projects';
 import { Metadata } from 'next';
 
@@ -20,9 +20,12 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='hidden lg:grid items-center bg-c3-1 h-[80%] w-[30%] m-auto
-        md:aspect-6/7 absolute right-0 bottom-16 z-0 opacity-70 lg:opacity-100
+      <div className='absolute right-0 top-0 h-full w-[30%] flex'>
+        <div className='hidden lg:grid items-center bg-c3-1 h-[70%] w-full m-auto
+         z-0 opacity-70 lg:opacity-100
          animate__animated animate__fadeInRight decorator__fadeIn'>
+          <Rocket/>
+        </div>
       </div>
 
 

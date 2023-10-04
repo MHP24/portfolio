@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { Suspense, useRef } from 'react';
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 
@@ -51,12 +51,14 @@ function Model() {
 
 export const Delorean = () => {
   return (
-    <Canvas shadows>
-      <Stage environment={'sunset'} intensity={1}>
-        <Model/>
-      </Stage>
-      <OrbitControls enableZoom={false}/>
-    </Canvas>
+    <Suspense fallback={null}>
+      <Canvas shadows className='animate__animated animate__fadeIn'>
+        <Stage environment={'sunset'} intensity={1}>
+          <Model/>
+        </Stage>
+        <OrbitControls enableZoom={false}/>
+      </Canvas>
+    </Suspense>
   );
 };
 

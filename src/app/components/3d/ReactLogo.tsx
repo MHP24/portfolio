@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, { Suspense, useRef } from 'react';
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
 import { Canvas, useFrame } from '@react-three/fiber';
 
@@ -28,12 +28,14 @@ function Model() {
 
 export const ReactLogo = () => {
   return (
-    <Canvas shadows>
-      <Stage>
-        <Model/>
-      </Stage>
-      <OrbitControls enableZoom={false}/>
-    </Canvas>
+    <Suspense fallback={null}>
+      <Canvas className='animate__animated animate__fadeIn'>
+        <Stage environment={'city'}>
+          <Model/>
+        </Stage>
+        <OrbitControls enableZoom={false}/>
+      </Canvas>
+    </Suspense>
   );
 };
 
