@@ -25,11 +25,6 @@ const options = [
     path: 'contacto',
     label: 'contacto',
     asset: 'contact'
-  },
-  {
-    path: 'compartir',
-    label: 'compartir',
-    asset: 'share'
   }
 ];
 
@@ -45,7 +40,6 @@ export const Navbar = () => {
     }>
 
       <ul className='flex flex-col gap-8 h-full'>
-
         <li>
           <Link 
             href={'/'}
@@ -61,7 +55,6 @@ export const Navbar = () => {
             ))
           }
         </li>
-
       </ul>
     </nav>
   );
