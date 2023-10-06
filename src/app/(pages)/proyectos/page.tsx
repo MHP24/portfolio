@@ -1,10 +1,16 @@
 import { TitleCategory, ProjectPanel, Rocket } from '@/app/components';
+import { images } from '@/app/mocks';
 import { projects } from '@/app/mocks/projects';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Miguel HP | Proyectos',
-  description: 'Proyectos realizados por Miguel Henríquez Pacheco (frontend y backend)'
+  description: 'Proyectos realizados por Miguel Henríquez Pacheco (frontend y backend)',
+  openGraph: {
+    title: 'Miguel HP | Proyectos',
+    description: 'Proyectos realizados por Miguel Henríquez Pacheco (frontend y backend)',
+    images
+  }
 };
 
 const Page = () => {

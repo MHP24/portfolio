@@ -1,11 +1,17 @@
 import { ContactMedias, Penguin, TitleCategory } from '@/app/components';
 import { ContactForm } from '@/app/components/ui/ContactForm';
+import { images } from '@/app/mocks';
 import { contactMedias } from '@/app/mocks/contact';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Miguel HP | Contacto',
-  description: 'Contacto directo con Miguel Henríquez Pacheco, desarollador Full Stack'
+  description: 'Contacto directo con Miguel Henríquez Pacheco, desarollador Full Stack',
+  openGraph: {
+    title: 'Miguel HP | Contacto',
+    description: 'Contacto directo con Miguel Henríquez Pacheco, desarollador Full Stack',
+    images
+  }
 };
 
 const Page = () => {

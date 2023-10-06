@@ -3,12 +3,18 @@ import { Inter } from 'next/font/google';
 import 'animate.css';
 import './globals.css';
 import { NavProvider } from './context';
+import { images } from './mocks';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Miguel HP',
   description: 'Portafolio de Miguel Henríquez Pacheco',
+  openGraph: {
+    title: 'Miguel HP',
+    description: 'Portafolio de Miguel Henríquez Pacheco',
+    images
+  }
 };
 
 export default function RootLayout({

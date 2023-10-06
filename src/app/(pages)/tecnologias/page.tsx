@@ -1,10 +1,15 @@
 import { Metadata } from 'next';
 import { ReactLogo, Skills, TitleCategory } from '@/app/components';
-import { technologies } from '@/app/mocks';
+import { images, technologies } from '@/app/mocks';
 
 export const metadata: Metadata = {
   title: 'Miguel HP | Tecnologías',
-  description: 'Tecnologías de expertís de Miguel Henríquez Pacheco.'
+  description: 'Tecnologías de expertís de Miguel Henríquez Pacheco.',
+  openGraph: {
+    title: 'Miguel HP | Tecnologías',
+    description: 'Tecnologías de expertís de Miguel Henríquez Pacheco.',
+    images
+  }
 };
 
 
