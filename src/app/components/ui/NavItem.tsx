@@ -11,7 +11,6 @@ type Props = {
 }
 
 export const NavItem: FC<Props> = ({ path, label, asset }) => {
-
   const [isHover, setIsHover] = useState<boolean>(false);
 
   return (

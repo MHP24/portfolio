@@ -43,11 +43,6 @@
 }
 
 @media (min-width: 48rem) {
-  .animate__fadeInLeft,
-  .animate__fadeOutLeft {
-    --animate-duration: -1s;
-  }
-
   .animate__fadeOutLeft {
     animation: reverse;
   }
