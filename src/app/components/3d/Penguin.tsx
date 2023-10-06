@@ -44,7 +44,7 @@ export const Penguin = () => {
   return (
     <Suspense fallback={null}>
       <Canvas shadows={false} className='animate__animated animate__fadeIn'>
-        <Stage environment={'sunset'} shadows={false} castShadow={false}>
+        <Stage environment={'sunset'} shadows={false}>
           <Model/>
         </Stage>
         <OrbitControls enableZoom={false}/>

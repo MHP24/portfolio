@@ -4,7 +4,6 @@ import 'animate.css';
 import './globals.css';
 import { NavProvider } from './context';
 
-
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
