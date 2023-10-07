@@ -20,7 +20,7 @@ export const ProjectHover: FC<Props> = ({ title, links: { repository, production
         target='_blank'
         className='transition-transform delay-75 hover:scale-105 text-md xl:text-lg font-primary
          bg-c2 py-2 px-4 rounded-full border-2 border-c3-1' >
-          Respositorio
+          Repositorio
       </Link>
       {
         production &&
