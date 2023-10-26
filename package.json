@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "start:dev": "next dev",
-    "start:prod": "next start",
+    "start:dev": "next dev --port=9090",
+    "start:prod": "next start --port=9090",
     "lint": "eslint --init"
   },
   "dependencies": {

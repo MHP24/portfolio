@@ -24,6 +24,14 @@ export const projects = [
     asset: 'discord-bot.jpg'
   },
   {
+    title: 'Tic tac toe online',
+    links: {
+      repository: 'https://github.com/MHP24/tic-tac-toe-online',
+      production: 'https://tic-tac-toe.mg-hp.com/'
+    },
+    asset: 'tic-tac-toe-online.jpg'
+  },
+  {
     title: 'Abstract MH',
     links: {
       repository: 'https://github.com/MHP24/vsc-abstract-theme',
