@@ -16,7 +16,7 @@ export const SkillSet: FC<Technologies> = ({ title, stack, percent }) => {
         {
           stack.map(({ name, asset }, i) => (
             <li key={`technology-${i}-${name}`} className='flex items-center gap-4'>
-              <Image src={`${asset}.svg`} alt={name} width={35} height={35}/>
+              <Image priority={true} src={`${asset}.svg`} alt={name} width={35} height={35}/>
               <p className='text-xl font-primary'>{name}</p>
             </li>
           ))

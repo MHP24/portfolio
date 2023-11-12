@@ -20,7 +20,7 @@ const Page = () => {
       px-4 relative grid items-center animate__animated animate__fadeIn page__fadeIn'>
 
       <div className='hidden lg:grid items-center bg-c3-2 aspect-square w-40 xl:w-80
-       fixed right-5 top-5 z-0  rounded-2xl border-2 border-c3-1'>
+       absolute right-5 top-5 z-0  rounded-2xl border-2 border-c3-1'>
         <ReactLogo/>
       </div>
     

@@ -23,6 +23,7 @@ export const Project: FC<PropsWithChildren<TProject>> = ({ children, asset, titl
       }
       <div className='z-10'>
         <Image 
+          priority={true}
           className='absolute rounded-xl border-c3-1 border-2'
           src={`/img/projects/${asset}`} 
           alt={`proyecto ${title}`} 
