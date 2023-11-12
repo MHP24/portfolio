@@ -14,6 +14,10 @@ export const technologies: Technologies[] = [
         asset: '/svgs/technologies/css3'
       },
       {
+        name: 'Tailwind CSS',
+        asset: '/svgs/technologies/tailwind-css'
+      },
+      {
         name: 'JavaScript',
         asset: '/svgs/technologies/javascript'
       },
@@ -22,17 +26,13 @@ export const technologies: Technologies[] = [
         asset: '/svgs/technologies/typescript'
       },
       {
-        name: 'Angular',
-        asset: '/svgs/technologies/angular'
-      },
-      {
         name: 'React.js',
         asset: '/svgs/technologies/react-js'
       },
       {
-        name: 'Next.js',
-        asset: '/svgs/technologies/next-js'
-      },
+        name: 'Angular',
+        asset: '/svgs/technologies/angular'
+      }
     ]
   },
   {
@@ -40,12 +40,16 @@ export const technologies: Technologies[] = [
     percent: '100',
     stack: [
       {
+        name: 'Next.js',
+        asset: '/svgs/technologies/next-js'
+      },
+      {
         name: 'Node.js',
         asset: '/svgs/technologies/node-js'
       },
       {
-        name: 'Express.js',
-        asset: '/svgs/technologies/express-js'
+        name: 'Nest.js',
+        asset: '/svgs/technologies/nest-js'
       },
       {
         name: 'Python3',
@@ -54,10 +58,6 @@ export const technologies: Technologies[] = [
       {
         name: 'MySQL',
         asset: '/svgs/technologies/mysql'
-      },
-      {
-        name: 'SQL Oracle',
-        asset: '/svgs/technologies/sql-oracle'
       },
       {
         name: 'MongoDB',
